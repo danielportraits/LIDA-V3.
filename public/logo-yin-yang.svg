@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="500" height="500" fill="#0a0a0a"/>
+  <!-- Yin-Yang Logo con Estética Gótico-Neón -->
+  <g transform="translate(250,250)" filter="url(#neon-glow)">
+    <!-- Círculo exterior neón -->
+    <circle cx="0" cy="0" r="180" fill="none" stroke="#00ff66" stroke-width="8"/>
+    
+    <!-- Mitad izquierda (Negra profunda con acento gótico) -->
+    <path d="M 0 -180 A 180 180 0 0 1 0 180 A 90 90 0 0 1 0 0 A 90 90 0 0 0 0 -180 Z" fill="#121212" stroke="#00ff66" stroke-width="4"/>
+    
+    <!-- Mitad derecha (Verde neón brillante / Contraste) -->
+    <path d="M 0 180 A 180 180 0 0 1 0 -180 A 90 90 0 0 1 0 0 A 90 90 0 0 0 0 180 Z" fill="#00ff66" stroke="#00ff66" stroke-width="4"/>
+    
+    <!-- Puntos centrales -->
+    <circle cx="0" cy="-90" r="25" fill="#00ff66"/>
+    <circle cx="0" cy="90" r="25" fill="#0a0a0a" stroke="#00ff66" stroke-width="4"/>
+  </g>
+</svg>
