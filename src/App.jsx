@@ -14,7 +14,7 @@ export default function App() {
       <header className="flex items-center justify-between px-4 py-3 glass-gothic border-b border-[#00ff66]/20 z-50">
         <div className="flex items-center space-x-2">
           <div className="w-9 h-9 rounded-full bg-[#00ff66]/10 border border-[#00ff66] flex items-center justify-center neon-glow-box overflow-hidden p-0.5">
-            <img src="/logo-yin-yang.svg" alt="LIDA Yin-Yang" className="w-full h-full object-contain filter drop-shadow-[0_0_6px_#00ff66]" />
+            <img src="./logo-yin-yang.svg" alt="LIDA Yin-Yang" className="w-full h-full object-contain filter drop-shadow-[0_0_6px_#00ff66]" />
           </div>
           <h1 className="text-xl font-extrabold tracking-wider text-[#00ff66]">LIDA</h1>
         </div>
